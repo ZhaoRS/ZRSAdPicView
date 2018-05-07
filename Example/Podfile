@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZRSAdPicView_Example' do
+  pod 'ZRSAdPicView', :path => '../'
+
+  target 'ZRSAdPicView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,6 @@
+framework module ZRSAdPicView {
+  umbrella header "ZRSAdPicView-umbrella.h"
+
+  export *
+  module * { export * }
+}

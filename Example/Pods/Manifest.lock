@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZRSAdPicView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZRSAdPicView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZRSAdPicView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZRSAdPicView: 9304e8ba6c5d0cd4425ffada0d306cb182896fb5
+
+PODFILE CHECKSUM: 9dc1de4039b3d539453037aa3ca252eccc111ad6
+
+COCOAPODS: 1.5.0
